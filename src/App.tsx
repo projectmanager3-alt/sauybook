@@ -203,6 +203,23 @@ const DEPARTMENTS = [
     icon: ClipboardList,
     tagline: 'Coordinación de cuentas · Reportes · Seguimiento',
     manuals: [
+    {
+      title: 'Proceso de Finalización de Contrato',
+            summary: 'Este documento describe el protocolo oficial de SAUY Marketing para cerrar contratos con clientes. El proceso inicia con la notificación en Google Chat, seguido de la recopilación de información por el PM, desactivación de campañas (Pauta), entrega de accesos (Contenido y Diseño), actualización de agenda y devolución de celular (Comercial), limpieza del CRM, liberación de landing pages (Web) y finalmente el envío del informe de entrega al cliente. El cierre total lo confirma Gerencia.',
+                  link: 'https://drive.google.com/file/d/1AGjBhxcTKMZzWkw7IR6HtZn6yruIr2zh/view?usp=drive_link',
+                        steps: [
+                                '00 - Activación: Gerencia o PM notifica en Google Chat y activa flujo en Click Up.',
+                                        '01 - Recopilación: PM reúne carpetas Drive, Master Metrics y accesos completos del cliente.',
+                                                '02 - Área de Pauta: Apagar campañas, gestionar accesos y verificación 2FA.',
+                                                        '03 - Contenido/Diseño: Entregar accesos a redes, cerrar sesiones con evidencia.',
+                                                                '04 - Comercial: Actualizar agenda y gestionar devolución del celular si aplica.',
+                                                                        '05 - CRM: Exportar base de datos, eliminar accesos y WhatsApp del sistema.',
+                                                                                '06 - Web: Liberar landing pages al cliente con documentación técnica.',
+                                                                                        '07 - Informe Final: PM compila y envía entregables al cliente por correo.',
+                                                                                                '08 - Cierre Total: Gerencia verifica todo y publica notificación de cierre.',
+                                                                                                      ],
+                                                                                                          },
+
       {
         title: 'Cómo estructurar el informe mensual de un cliente',
         steps: [
@@ -241,31 +258,79 @@ const DEPARTMENTS = [
     tagline: 'Circulares · Políticas internas · SAUY',
     manuals: [
       {
-        title: 'Cómo se publica una circular interna',
-        steps: [
-          'El documento debe ser aprobado por dirección antes de publicarse aquí.',
-          'Se sube en formato PDF con fecha de publicación visible.',
-          'Se notifica al equipo por el canal interno correspondiente.',
-          'Las circulares vigentes se mantienen arriba; las vencidas se archivan pero no se eliminan.',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: '¿Dónde consulto las políticas vigentes de la agencia?',
-        a: 'Todas las políticas activas se mantienen en esta pestaña, ordenadas por fecha de publicación más reciente.',
-      },
-    ],
-    documents: [
-      {
-        name: 'Política de uso de Drive y carpetas de cliente',
-        date: 'Vigente desde Mar 2026',
-      },
-      {
-        name: 'Protocolo de aprobación de piezas con el cliente',
-        date: 'Vigente desde Abr 2026',
-      },
-    ],
+        title: 'Finalizacion de Contrato Cliente SAUY',
+                steps: [
+                          'Accede al documento completo en Google Drive haciendo clic en el enlace del panel de documentos.',
+                                    'Este manual detalla el proceso oficial de finalizacion de contratos con clientes SAUY.',
+                                              'Asegurate de seguir todos los pasos indicados antes de cerrar cualquier contrato.',
+                                                      ],
+                                                            },
+                                                                  {
+                                                                          title: 'Manual de Correo y Google SAUY',
+                                                                                  steps: [
+                                                                                            'Accede al documento en Google Drive para ver las instrucciones completas.',
+                                                                                                      'Este manual cubre el uso correcto del correo corporativo y las herramientas de Google Workspace.',
+                                                                                                                'Consulta este documento al configurar o usar las cuentas de correo de SAUY.',
+                                                                                                                        ],
+                                                                                                                              },
+                                                                                                                                    {
+                                                                                                                                            title: 'Manual de Uso de ClickUp',
+                                                                                                                                                    steps: [
+                                                                                                                                                              'Revisa el documento completo en el panel de documentos para ver todos los flujos de trabajo.',
+                                                                                                                                                                        'ClickUp es la herramienta principal de gestion de proyectos y tareas en SAUY.',
+                                                                                                                                                                                  'Sigue las instrucciones para crear proyectos, asignar tareas y actualizar el estado.',
+                                                                                                                                                                                          ],
+                                                                                                                                                                                                },
+                                                                                                                                                                                                      {
+                                                                                                                                                                                                              title: 'Manual de Uso de Google Chat SAUY',
+                                                                                                                                                                                                                      steps: [
+                                                                                                                                                                                                                                'Consulta el documento en Google Drive para ver las normas de comunicacion interna.',
+                                                                                                                                                                                                                                          'Google Chat es el canal oficial de comunicacion interna del equipo SAUY.',
+                                                                                                                                                                                                                                                    'Usa los canales correctos segun el tipo de mensaje: canales de equipo, chats directos o grupos.',
+                                                                                                                                                                                                                                                            ],
+                                                                                                                                                                                                                                                                  },
+                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                title: 'Pausa Temporal Clientes SAUY',
+                                                                                                                                                                                                                                                                                        steps: [
+                                                                                                                                                                                                                                                                                                  'Revisa el documento completo antes de aplicar cualquier pausa temporal a un cliente.',
+                                                                                                                                                                                                                                                                                                            'Este manual describe el protocolo oficial para gestionar pausas temporales en contratos activos.',
+                                                                                                                                                                                                                                                                                                                      'Asegurate de notificar a todas las areas involucradas segun el procedimiento indicado.',
+                                                                                                                                                                                                                                                                                                                              ],
+                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                        ],
+                                                                                                                                                                                                                                                                                                                                            faqs: [
+                                                                                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                                                                                          q: 'Donde encuentro los manuales operativos en PDF?',
+                                                                                                                                                                                                                                                                                                                                                                  a: 'Todos los manuales estan disponibles en el panel de documentos. Haz clic en el nombre del documento para abrirlo en Google Drive.',
+                                                                                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                                                                                            ],
+                                                                                                                                                                                                                                                                                                                                                                                documents: [
+                                                                                                                                                                                                                                                                                                                                                                                      {
+                                                                                                                                                                                                                                                                                                                                                                                              name: 'Finalizacion de Contrato Cliente SAUY',
+                                                                                                                                                                                                                                                                                                                                                                                                      date: 'Mayo 2026',
+                                                                                                                                                                                                                                                                                                                                                                                                              url: 'https://drive.google.com/file/d/1AGjBhxcTKMZzWkw7IR6HtZn6yruIr2zh/view',
+                                                                                                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                                                                                                                                                                                                                                  name: 'Manual Correo y Google SAUY',
+                                                                                                                                                                                                                                                                                                                                                                                                                                          date: 'Mayo 2026',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                  url: 'https://drive.google.com/file/d/1G8HpBBBRhsm9FPio-pxLq36LqfNths-V/view',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      name: 'Manual Uso de ClickUp',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              date: 'Mayo 2026',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      url: 'https://drive.google.com/file/d/1R68CfuDAf-Q7paMrICP7tIfJj1iIgO9I/view',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          name: 'Manual Uso de Google Chat SAUY',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  date: 'Mayo 2026',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          url: 'https://drive.google.com/file/d/1uezLmwHTtIiNa1DhIBLrnuWV8xlhsov_/view',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              name: 'Pausa Temporal Clientes SAUY',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      date: 'Mayo 2026',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              url: 'https://drive.google.com/file/d/1JDBnCcWGmzTkaXpU8qKmmBzWktRrNRS0/view',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ]
   },
 ];
 
@@ -293,6 +358,14 @@ function ManualCard({ manual }: { manual: any }) {
       </button>
       {open && (
         <div className="px-5 pb-5 pt-1">
+                    {manual.summary && (
+                                <p className="text-sm text-neutral-600 mb-3 italic">{manual.summary}</p>
+                                          )}
+                                                    {manual.link && (
+                                                                <a href={manual.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-yellow-600 hover:text-yellow-700 font-medium mb-3">
+                                                                              <ArrowRight size={14} /> Ver documento completo
+                                                                                          </a>
+                                                                                                    )}
           <ol className="space-y-2.5">
             {manual.steps.map((step: string, i: number) => (
               <li
